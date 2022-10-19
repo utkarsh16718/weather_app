@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Searchamin from './components/Searchamin';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Searchamin/>
     </div>
   );
 }
 
 export default App;
+
+
+// http://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&appid=552bb55b7421bb2125e669b948ae3839
